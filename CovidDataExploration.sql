@@ -165,3 +165,6 @@ Join SQLDataExp..CovidVaccinations vac
 	On deaths.location = vac.location
 	and deaths.date = vac.date
 where deaths.continent is not null
+
+SELECT *
+FROM PercentPopulationVaccinated
